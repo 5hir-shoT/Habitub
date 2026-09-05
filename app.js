@@ -13,6 +13,7 @@
   const CHEV_L = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>';
   const CHEV_R = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>';
   const TRASH_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path></svg>';
+  const EDIT_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg>'
   const SHARE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>';
   const PLUS_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>';
   const SUN_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>';
@@ -126,10 +127,10 @@
           <p class="credit-name">Shirsho Tarafdar</p>
         </div>
         <div class="social-links">
-          <a class="social-link" href="https://github.com/5hir-shoT" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+          <a class="social-link" href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .7a11.3 11.3 0 0 0-3.57 22.02c.57.1.78-.25.78-.55v-2.02c-3.17.69-3.84-1.34-3.84-1.34-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.25 3.32.95.1-.74.4-1.25.72-1.54-2.53-.29-5.18-1.27-5.18-5.66 0-1.25.45-2.26 1.18-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.12 1.17A10.8 10.8 0 0 1 12 5.95c.97 0 1.94.13 2.85.4 2.16-1.48 3.12-1.17 3.12-1.17.62 1.57.23 2.73.11 3.02.73.8 1.18 1.81 1.18 3.06 0 4.4-2.66 5.36-5.2 5.64.41.36.77 1.07.77 2.16v3.21c0 .3.21.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg>
           </a>
-          <a class="social-link linkedin" href="https://www.linkedin.com/in/shirsho-tarafdar/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <a class="social-link linkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.58c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.68H9.34V8.99h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.29ZM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM3.54 8.99H7.1v11.46H3.54V8.99ZM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46C23.21 24 24 23.23 24 22.27V1.73C24 .77 23.21 0 22.23 0Z"/></svg>
           </a>
         </div>
@@ -209,6 +210,12 @@
         openDetail(h.id);
       });
 
+      const edit = document.getElementById('edit-'+h.id);
+      if(edit) edit.addEventListener('click', (e)=>{
+        e.stopPropagation();
+        openRenameModal(h.id);
+      });
+
       const del = document.getElementById('delete-'+h.id);
       if(del) del.addEventListener('click', (e)=>{
         e.stopPropagation();
@@ -234,7 +241,10 @@
         <div class="habit-top">
           <div class="habit-icon" style="background:${color}22;">${h.emoji}</div>
           <div class="habit-meta">
-            <p class="habit-name">${escapeHtml(h.name)}</p>
+            <div class="habit-name-row">
+              <p class="habit-name">${escapeHtml(h.name)}</p>
+              <button class="habit-edit" id="edit-${h.id}" title="Rename habit" aria-label="Rename ${escapeHtml(h.name)}">${EDIT_SVG}</button>
+            </div>
             <div class="habit-streak"><span class="mini-flame ${done ? '' : 'dull'}" id="flame-${h.id}">🔥</span> ${streak} day${streak===1?'':'s'}</div>
           </div>
           <div class="habit-actions">
@@ -377,6 +387,7 @@
       <div class="detail-habit-title">
         <span class="emoji">${h.emoji}</span>
         <span class="name">${escapeHtml(h.name)}</span>
+        <button class="edit-habit-btn" id="renameBtn" title="Rename habit" aria-label="Rename ${escapeHtml(h.name)}">${EDIT_SVG}</button>
       </div>
       <div class="hero">
         <div class="flame-icon ${isDoneToday(h) ? '' : 'dull'}" id="heroFlame">${FLAME_SVG}</div>
@@ -393,6 +404,7 @@
     `;
 
     document.getElementById('backBtn').addEventListener('click', closeDetail);
+    document.getElementById('renameBtn').addEventListener('click', ()=> openRenameModal(h.id));
     document.getElementById('deleteBtn').addEventListener('click', ()=> deleteHabit(h.id));
     document.getElementById('shareBtn').addEventListener('click', ()=> shareHabit(h, streak));
     const prevBtn = document.getElementById('calPrev');
@@ -507,6 +519,40 @@
         showToast('All habits cleared');
       }
     });
+  }
+
+  function openRenameModal(id){
+    const h = habits.find(x => x.id === id);
+    if(!h) return;
+    const overlay = document.getElementById('modalOverlay');
+    const sheet = document.getElementById('modalSheet');
+    sheet.innerHTML = `
+      <h2>Rename habit</h2>
+      <p class="modal-sub">Give this habit a new name. Your history and streak will stay unchanged.</p>
+      <span class="field-label">Name</span>
+      <input class="name-input" id="renameHabitInput" value="${escapeHtml(h.name)}" maxlength="30" />
+      <div class="modal-btns">
+        <button class="btn-secondary" id="renameCancelBtn">Cancel</button>
+        <button class="btn-primary" id="renameSaveBtn">Save</button>
+      </div>
+    `;
+    overlay.classList.add('open');
+    const input = document.getElementById('renameHabitInput');
+    document.getElementById('renameCancelBtn').addEventListener('click', closeModal);
+    document.getElementById('renameSaveBtn').addEventListener('click', ()=>{
+      const name = input.value.trim();
+      if(!name) return;
+      h.name = name;
+      saveHabits();
+      closeModal();
+      renderDetail();
+      showToast('Habit renamed');
+    });
+    input.addEventListener('keydown', e=>{
+      if(e.key === 'Enter') document.getElementById('renameSaveBtn').click();
+      if(e.key === 'Escape') closeModal();
+    });
+    setTimeout(()=>{ input.focus(); input.select(); }, 150);
   }
 
   function shareHabit(h, streak){
