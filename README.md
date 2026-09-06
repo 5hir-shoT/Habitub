@@ -17,8 +17,6 @@ Habitub is designed to make habit tracking simple, visual, and motivating. Track
 
 ## Interface Preview
 
-Home Page 1 - https://github.com/5hir-shoT/Habitub/blob/534c943d2f1bcc6f1257206f43b7cb9e8ef7d296/Home%20Page%201.png
-
 
 ## Live Demo
 
