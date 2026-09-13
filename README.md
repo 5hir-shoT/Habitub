@@ -15,6 +15,10 @@ Habitub is designed to make habit tracking simple, visual, and motivating. Track
 - Light and dark themes
 - Mobile-friendly interface
 
+## Interface Preview
+
+![image alt](https://github.com/5hir-shoT/Habitub/blob/52c85fb108a69a51325bfbfd735b798593966420/Streak%20Dashboard%20%2B%20Home%202.png)
+
 ## Live Demo
 
 🌐 **Website:** `habitub.vercel.app`
